@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+
+<body>
+    <h1>Calculadora de compra</h1>
+
+    <form id="formulario">
+        <label for="precio">Precio unitario: </label>
+        <input type="number" id="precio" step="0.01">
+
+        <label for="cantidad">Cantidad: </label>
+        <input type="number" id="cantidad" step="1">
+
+        <button type="submit">Calcular Total</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="calculadora.js"></script>
+
+</body>
+
+</html>

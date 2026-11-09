@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f7;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: #8b4b68;
+}
+
+form {
+    background-color: white;
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000015;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+input[type="number"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b76e91;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #944f70;
+}
+
+#resultado {
+    background-color: white;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    color: #8b4b68;
+}
+
+#mensaje {
+    color: #c95f6b;
+}
+
+/* Ejercicio 4 */
+
+#listaTareas {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+li span {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.eliminar {
+    background-color: #c95f6b;
+}
+
+
+.menu a {
+    display: block;
+    background-color: white;
+    color: #8b4b68;
+    max-width: 350px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px #00000015;
+}
+
+.menu a:hover {
+    background-color: #f2dce6;
+}
